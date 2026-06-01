@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="assets/banner.png" alt="VoxStock Banner" width="100%" />
 
   <h1>🎙️ VoxStock WMS</h1>
   <p><strong>Sistema SaaS de Gestión de Inventario dirigido por Inteligencia Artificial de Voz</strong></p>
