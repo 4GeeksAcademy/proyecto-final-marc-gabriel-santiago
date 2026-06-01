@@ -53,3 +53,30 @@ Sigue estos pasos para levantar el entorno de desarrollo en tu máquina.
 ```bash
 git clone [https://github.com/tu-usuario/voxstock.git](https://github.com/tu-usuario/voxstock.git)
 cd voxstock
+```
+2. Levantar el Backend (Python)
+
+```bash
+cd backend
+# Crear entorno virtual (Recomendado)
+python -m venv venv
+source venv/Scripts/activate  # En Windows
+# Instalar dependencias
+pip install -r requirements.txt
+# Iniciar servidor
+python app.py
+```
+
+### 3. Levantar el Frontend (React)
+Abre otra terminal en la raíz del proyecto:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+El panel de control estará disponible en http://localhost:5173.
+
+👥 Equipo de Desarrollo
+Este sistema ha sido diseñado y construido por:
